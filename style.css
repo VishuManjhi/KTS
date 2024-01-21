@@ -1,0 +1,73 @@
+
+body{
+    height:100%;
+    width:100%;
+    margin:10px;
+    display: flex;
+    justify-content: center;
+}
+.Container{
+    display:flex;
+    height:80%;
+    width:80%;
+    border: solid 3px black;
+    border-radius: 20px;
+    padding: 2px;
+}
+.mini{
+    width:40%;
+    background-color: rgb(38, 89, 155);
+    color:white;
+    border-radius: 10px;
+    margin: 1px;
+    font-size: 25px;
+    padding: 25px;
+    padding-top: 20px;
+}
+.Login button{
+    border-radius: 10px;  
+    font-size: 40px;
+    cursor: pointer;   
+}
+pre{
+    font-size: 40px;
+}
+input{
+    height:50px;
+    width:100%;
+    padding:2px;
+    display: flex;
+    font-size: 40px;
+    }
+
+::placeholder{
+    font-size: 30px;
+    line-height: 30%;
+    margin-left: 20px;
+    color:grey;
+    height: 100px;
+}
+.options{
+    height:150%;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    border:solid 1px rgb(0, 0, 0) ;
+    font-size: 25px;
+    line-height: 50px;
+    background-color: white;
+    color:grey;
+    font-weight: lighter;
+}
+
+.button button{
+    height:70px;
+    width:auto;
+    background-color: rgb(64, 55, 55);
+    border-radius: 20px;
+    font-size:40px;
+    color:white;
+    margin-left:120px;
+}
+
+
